@@ -302,15 +302,20 @@ const App: React.FC = () => {
                       <p className="font-bold">@flowreels_01</p>
                     </div>
                  </div>
-                 <div className="flex items-center gap-4 text-slate-300">
-                    <div className="w-12 h-12 bg-slate-900 rounded-full flex items-center justify-center border border-slate-800">
+                 <a 
+                   href="https://t.me/flowreels_" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   className="flex items-center gap-4 text-slate-300 hover:text-indigo-400 transition group"
+                 >
+                    <div className="w-12 h-12 bg-slate-900 rounded-full flex items-center justify-center border border-slate-800 group-hover:border-indigo-500">
                       <Send size={24} />
                     </div>
                     <div>
                       <p className="text-xs text-slate-500 uppercase tracking-widest font-bold">Telegram</p>
                       <p className="font-bold">@flowreels_01</p>
                     </div>
-                 </div>
+                 </a>
                </div>
              </div>
 
@@ -388,7 +393,7 @@ const App: React.FC = () => {
                 <h4 className="font-bold mb-6 text-white uppercase tracking-widest text-xs">Соцсети</h4>
                 <ul className="space-y-4 text-slate-500 text-sm font-bold">
                   <li><a href="#" className="hover:text-indigo-400 transition">Instagram</a></li>
-                  <li><a href="#" className="hover:text-indigo-400 transition">Telegram</a></li>
+                  <li><a href="https://t.me/flowreels_" target="_blank" rel="noopener noreferrer" className="hover:text-indigo-400 transition">Telegram</a></li>
                   <li><a href="#" className="hover:text-indigo-400 transition">YouTube</a></li>
                 </ul>
               </div>
